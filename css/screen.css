@@ -187,6 +187,17 @@ a:focus {
     .o-row--lg {
         padding: 48px 48px 24px;
     }
+
+/*
+    Objects: Container
+    ---
+    Creates a horizontal container that sets de global max-width
+*/
+
+.o-container {
+    width: 100%;
+    max-width: 90em;
+    margin: 0 auto;
 }
 
 /*------------------------------------*\
@@ -211,6 +222,18 @@ a:focus {
 
 .u-max-width-sm {
     max-width: 36em;
+}
+
+.u-max-width-md {
+    max-width: 45em;
+}
+
+.u-max-width-lg {
+    max-width: 60em;
+}
+
+.u-max-width-xm {
+    max-width: 75em;
 }
 
 /*
